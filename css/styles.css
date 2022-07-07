@@ -281,7 +281,7 @@ body {
     position: relative;
    }
   
-  .thumb> .label {
+  .thumb .label {
   position: absolute;
   bottom: 0;
   width: 370px;

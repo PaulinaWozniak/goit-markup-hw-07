@@ -1,0 +1,18 @@
+.logo{
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    padding-right: 93px;
+
+&__accent {
+    color: #2196f3;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+}
