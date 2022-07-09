@@ -1,8 +1,6 @@
 body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-    color: #000000;
-}
+  font-family: $logo-font;
+  font-family: $primary-font;
   
   *,
   *::before,
@@ -20,8 +18,7 @@ body {
   }
   .link {
     text-decoration: none;
-    color: #2196f3;
-  
+    color:$color-accent;
   }
   section{
     padding-bottom: 94px;
@@ -29,3 +26,4 @@ body {
     margin: 0 auto;
     
   }
+}

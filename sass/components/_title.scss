@@ -6,7 +6,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: $color-white;
     align-items: center;
     justify-content: center;
     margin-left: auto;
@@ -20,7 +20,7 @@
      line-height: 42px;
      text-align: center;
      letter-spacing: 0.03em;
-     color: #212121;
+     color: $color-gray;
      padding-bottom:50px;
 }
 &__footer{
@@ -29,7 +29,7 @@
      line-height: 16px;
      letter-spacing: 0.03em;
      text-transform: uppercase;
-     color: #FFFFFF;
+     color: $color-white;
      padding-bottom: 20px;
      
 }
@@ -39,7 +39,7 @@
      line-height: 23px;
      text-align: center;
      letter-spacing: 0.03em;
-     color: #212121;
+     color: $color-gray;
      padding: 40px 40px 30px;
      }
 }

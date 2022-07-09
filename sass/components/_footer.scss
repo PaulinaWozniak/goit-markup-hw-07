@@ -1,5 +1,5 @@
 .secondary-contact{
-    background-color: #2f303a;
+    background-color: $bgc-footer;
     height: 252px;
 }
 address{
@@ -8,7 +8,7 @@ address{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: $color-white;
     padding-top: 20px;
     padding-bottom: 9px;
   }
@@ -25,7 +25,7 @@ address{
 
     &__link:hover,
     &__link:focus {
-        color: #2196f3;
+        color: $color-accent;
     }
 }
 footer>.container {
@@ -50,5 +50,5 @@ footer>.container {
       border-radius: 4px;
       padding: 15px 10px 15px 16px;
       margin: 0;
-      background-color:#2f303a;
+      background-color:$bgc-footer;
     }

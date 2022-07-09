@@ -7,7 +7,7 @@ label {
     margin-bottom: 12px;
     }
 label:focus-within{
-    fill:#2196f3;
+    fill:$color-accent;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
     }
 
@@ -17,7 +17,7 @@ label:focus-within{
         font-size: 12px;
         line-height: 14px;
         letter-spacing: 0.01em;
-        color: #757575;
+        color: $colorGrayLight;
         font-family: inherit;
         padding-left: 40px;
         padding-right:40px;
@@ -39,7 +39,7 @@ input{
     outline: none;
 }
 input:focus-within{
-    border-color: #2196f3;
+    border-color:$color-accent;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
@@ -55,7 +55,7 @@ textarea {
     outline: none;
   }
 textarea:focus-within{
-  border-color: #2196F3;
+  border-color:$color-accent;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
   }
   
@@ -69,7 +69,7 @@ textarea:focus-within{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $colorGrayLight;
     padding: 20px 54px 0px ;
   
   }
@@ -78,14 +78,14 @@ textarea:focus-within{
     content: "";
     width: 16px;
     height: 16px;
-    border: 2px solid #212121;
+    border: 2px solid $color-gray;
     border-radius: 2px;
     outline: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   }
   .modal-form-policy:checked + .modal-form-policy-text::before{
-    background-color: #2196f3;
+    background-color: $color-accent;
     border: none;
     border-radius: 2px ;
     background-image: url(../images/check.svg);
