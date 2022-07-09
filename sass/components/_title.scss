@@ -1,0 +1,45 @@
+.title{
+   &__head{
+    width: 696px;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 106px 0 30px;
+    }
+&__dark {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 42px;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: #212121;
+     padding-bottom:50px;
+}
+&__footer{
+    font-weight: 700;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     padding-bottom: 20px;
+     
+}
+&__form {
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 23px;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: #212121;
+     padding: 40px 40px 30px;
+     }
+}

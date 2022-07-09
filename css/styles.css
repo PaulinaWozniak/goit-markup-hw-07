@@ -765,9 +765,7 @@ body {
     outline: none;
   }
   
-  
-  
-  /* CHECKBOX */
+/* CHECKBOX */
   .modal-form-policy:required{
     border-color: none;
   }
@@ -811,7 +809,6 @@ body {
     overflow: hidden;
   }
   .send {
-    display: flex;
     background-color: #2196f3;
     color: #ffffff;
     font-size: 16px;
@@ -823,13 +820,8 @@ body {
     background: #2196f3;
     border-radius: 4px;
     line-height: 31px;
+    display: block;
+    margin: 0 auto;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .send-btn{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-  
-  
   }
   

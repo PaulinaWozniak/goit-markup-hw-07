@@ -1,0 +1,54 @@
+.secondary-contact{
+    background-color: #2f303a;
+    height: 252px;
+}
+address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 9px;
+  }
+.contact {
+    &__link {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        padding-bottom: 9px;
+    }
+
+    &__link:hover,
+    &__link:focus {
+        color: #2196f3;
+    }
+}
+footer>.container {
+    display: flex;
+    align-items:center;
+}
+.social-item {
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.news__item {
+  display: flex;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.news__email{
+      width: 358px;
+      height: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+      padding: 15px 10px 15px 16px;
+      margin: 0;
+      background-color:#2f303a;
+    }
