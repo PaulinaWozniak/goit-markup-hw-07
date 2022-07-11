@@ -1,5 +1,4 @@
-.title{
-   &__head{
+.head__title{
     width: 696px;
     font-size: 44px;
     line-height: 60px;
@@ -13,7 +12,8 @@
     margin-right: auto;
     padding: 106px 0 30px;
     }
-&__dark {
+
+.section__title {
      font-style: normal;
      font-weight: 700;
      font-size: 36px;
@@ -23,7 +23,7 @@
      color: $color-gray;
      padding-bottom:50px;
 }
-&__footer{
+.social__title{
     font-weight: 700;
      font-size: 14px;
      line-height: 16px;
@@ -33,7 +33,7 @@
      padding-bottom: 20px;
      
 }
-&__form {
+.form__title {
      font-weight: 700;
      font-size: 20px;
      line-height: 23px;
@@ -42,4 +42,3 @@
      color: $color-gray;
      padding: 40px 40px 30px;
      }
-}

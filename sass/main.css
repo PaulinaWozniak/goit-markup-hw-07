@@ -1,16 +1,21 @@
 /* COLORS */
 /*FONTS*/
 .button {
-  display: block;
   width: 200px;
   height: 50px;
   background-color: #2196f3;
   border: none;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.head__button,
+.send__button {
+  display: block;
   margin: 0 auto;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button__label {
   font-weight: 700;
   font-size: 16px;
@@ -20,36 +25,23 @@
   color: #fff;
 }
 
+.social__button {
+  display: flex;
+  margin: 0 auto;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 10px 0px 10px 41px;
+}
+
 .button__icon {
-  position: absolute;
   margin-top: 3px;
 }
 
 .button__icon--end {
-  margin-left: 10px;
-}
-
-/* CLOSE-BTN */
-.close__btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  cursor: pointer;
-}
-.close__btn__icon {
-  display: flex;
-  fill: #000000;
-  align-items: center;
-  justify-content: center;
+  margin-left: 24px;
 }
 
 /* BTN PORTFOLIO */
-.buttons {
+.portfolio__buttons {
   display: flex;
   gap: 8px;
   align-items: center;
@@ -78,6 +70,25 @@
   background: #2196f3;
   box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1), 2px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+/* CLOSE-BTN */
+.close__btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close__btn__icon {
+  display: flex;
+  fill: #000000;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -214,7 +225,7 @@ body section {
   background-color: #2f303a;
 }
 
-.features__item {
+.features__icon {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -228,7 +239,7 @@ body section {
   height: 120px;
 }
 
-.feature {
+.feature__list {
   padding-top: 30px;
   display: flex;
   gap: 30px;
@@ -454,7 +465,7 @@ body section {
   gap: 10px;
 }
 
-.title__head {
+.head__title {
   width: 696px;
   font-size: 44px;
   line-height: 60px;
@@ -468,7 +479,8 @@ body section {
   margin-right: auto;
   padding: 106px 0 30px;
 }
-.title__dark {
+
+.section__title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -478,7 +490,8 @@ body section {
   color: #212121;
   padding-bottom: 50px;
 }
-.title__footer {
+
+.social__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -487,7 +500,8 @@ body section {
   color: #fff;
   padding-bottom: 20px;
 }
-.title__form {
+
+.form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;

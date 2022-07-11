@@ -19,7 +19,7 @@
 }
 .features{
 
-    &__item{
+    &__icon{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -36,10 +36,11 @@
 }
 
 .feature{
+  &__list{
     padding-top: 30px;
     display: flex;
     gap: 30px;
-
+  }
     &__item{
     font-weight: 700;
     font-size: 14px;
