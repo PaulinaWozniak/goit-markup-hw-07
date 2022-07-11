@@ -225,7 +225,7 @@ body section {
   background-color: #2f303a;
 }
 
-.features__icon {
+.features__icons {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -238,13 +238,12 @@ body section {
   width: 270px;
   height: 120px;
 }
-
-.feature__list {
+.features__list {
   padding-top: 30px;
   display: flex;
   gap: 30px;
 }
-.feature__item {
+.features__item {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -253,7 +252,7 @@ body section {
   color: #212121;
   padding-bottom: 10px;
 }
-.feature__text {
+.features__text {
   height: 101px;
   font-size: 14px;
   line-height: 24px;
